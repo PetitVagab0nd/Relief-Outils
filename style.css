@@ -1,0 +1,265 @@
+/* // GLOBAL // */
+
+/* général */
+html {
+    width: 100%;
+    scroll-behavior: smooth;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    
+    --main-color:#161C24;
+    --second-color:white;
+
+    color:var(--second-color);
+    background-color:var(--main-color);
+}
+
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Texte */
+strong{
+    font-weight: 800;
+}
+
+/* lien */
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:not(button):hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+
+/* Svg */
+svg{
+    height: 100%;
+    width: 100%;
+    fill: var(--second-color);
+}
+
+/* Flèche */
+
+.left{
+    transform: rotate(180deg);
+}
+.up{
+    transform: rotate(-90deg);
+}
+.down{
+    transform: rotate(90deg);
+}
+
+/* Bouton */
+button{
+    border-radius: 1em;
+    padding: 0.8em 1em;
+    border: none;
+    background-color: transparent;
+}
+
+button.lv1{
+    background-color: var(--second-color);
+    color: var(--main-color);
+    fill: var(--main-color);
+}
+
+button.lv1 svg{
+    fill: var(--main-color);
+}
+
+button.lv2{
+    background-color: var(--main-color);
+    border: solid 1px var(--second-color);
+    color: var(--second-color);
+}
+
+button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: inherit;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    position: relative;
+}
+header p{
+    margin: auto;
+    font-size: 1.2em;
+}
+
+header>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: inherit;
+}
+
+header div, header a{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+header .arrow.left{
+    margin-right: 2em;
+}
+
+header .arrow svg {
+    height: 15%;
+    width: auto;
+}
+
+header .logo-relief svg{
+    height: 40%;
+    width: auto;
+}
+
+.account img{
+    display: block;
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 1em;
+    border-radius: 50%;
+}
+
+/* MAIN */
+main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4em;
+    position: relative;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bolder;
+    border-bottom: solid var(--second-color) 2.5px;
+    padding-bottom: 0.5em;
+}
+
+section.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+section.header p{
+    max-width: 30em;
+    margin-bottom: 3em;
+}
+
+section button.lv2{
+    margin-left: 2em;
+}
+
+section.header .arrow{
+    width: 1em;
+} 
+
+.connexion{
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+/* GRID */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, auto));
+    grid-gap: 3em;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Carte outils */
+.carte-outil{
+    border: 1px var(--second-color) solid;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 1em;
+    padding: 1.5em 2em;
+}
+
+.carte-outil:hover{
+    background-color: var(--main-color);
+    --main-color:white;
+    --second-color:#161C24;
+    color: var(--second-color);
+    fill: var(--second-color);
+    transform: scale(105%);
+    transition: 0.5s;
+}
+
+.carte-outil div, .carte-outil h2, .carte-outil button{
+    width: fit-content;
+}
+
+.carte-outil h2{
+    margin: 0;
+}
+
+.logo-outil{
+    height: 2.5em;
+    margin-bottom: 1em;
+}
+
+.carte-outil .lv2{
+    margin-top: 0.5em;
+}
+
+.carte-outil .open{
+    position: absolute;
+    bottom: 1.5em;
+    right: 2em;
+    height: 4em;
+    width: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carte-outil .open svg{
+    height: 40%;
+}
+
+.up-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    width: 4em;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+}
+
+.up-page svg{
+    height: 40%;
+    width: auto;
+}
+
+
+
+
