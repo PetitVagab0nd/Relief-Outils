@@ -200,6 +200,7 @@ section.header .arrow{
     position: relative;
     border-radius: 1em;
     padding: 1.5em 2em;
+    justify-content: space-between;
 }
 
 .carte-outil:hover{
