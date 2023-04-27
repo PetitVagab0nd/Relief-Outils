@@ -55,47 +55,45 @@
         </div>
     </header>
 
-    <main>
-        <div>
-          <svg  data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.81 43.48">
-            <path d="M28.41,11.11H9.38c-.83,0-1.5-.67-1.5-1.5s.67-1.5,1.5-1.5H28.41c.83,0,1.5,.67,1.5,1.5s-.67,1.5-1.5,1.5Z"/>
-            <path d="M28.41,18.03H9.38c-.83,0-1.5-.67-1.5-1.5s.67-1.5,1.5-1.5H28.41c.83,0,1.5,.67,1.5,1.5s-.67,1.5-1.5,1.5Z"/>
-            <path d="M25.73,24.96H9.38c-.83,0-1.5-.67-1.5-1.5s.67-1.5,1.5-1.5H25.73c.83,0,1.5,.67,1.5,1.5s-.67,1.5-1.5,1.5Z"/>
-            <path d="M19.44,31.89H9.38c-.83,0-1.5-.67-1.5-1.5s.67-1.5,1.5-1.5h10.06c.83,0,1.5,.67,1.5,1.5s-.67,1.5-1.5,1.5Z"/>
-            <path d="M29.56,43.48H6.44c-3.55,0-6.44-2.89-6.44-6.44V6.44C0,2.89,2.89,0,6.44,0H29.56c3.55,0,6.44,2.89,6.44,6.44v30.59c0,3.55-2.89,6.44-6.44,6.44ZM6.44,3c-1.9,0-3.44,1.55-3.44,3.44v30.59c0,1.9,1.54,3.44,3.44,3.44H29.56c1.9,0,3.44-1.54,3.44-3.44V6.44c0-1.9-1.54-3.44-3.44-3.44H6.44Z"/>
-            <rect x="23.49" y="21.37" width="21.73" height="8.71" transform="translate(-8.13 31.83) rotate(-45)"/>
-            <polygon points="26.61 37.27 22.81 37.27 22.81 33.47 26.61 37.27"/>
-            <path d="M46.91,19.49l-6.16-6.16,2.1-2.1c.53-.53,1.21-.8,2.03-.8s1.5,.27,2.03,.8l2.1,2.1c.53,.53,.8,1.21,.8,2.03s-.27,1.5-.8,2.03l-2.1,2.1Z"/>
-        </svg>
+    <main class="documentation flex center">
+        <div class="flex-row space-between fit">
+            <svg  data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.81 43.48">
+              <path d="M28.41,11.11H9.38c-.83,0-1.5-.67-1.5-1.5s.67-1.5,1.5-1.5H28.41c.83,0,1.5,.67,1.5,1.5s-.67,1.5-1.5,1.5Z"/>
+              <path d="M28.41,18.03H9.38c-.83,0-1.5-.67-1.5-1.5s.67-1.5,1.5-1.5H28.41c.83,0,1.5,.67,1.5,1.5s-.67,1.5-1.5,1.5Z"/>
+              <path d="M25.73,24.96H9.38c-.83,0-1.5-.67-1.5-1.5s.67-1.5,1.5-1.5H25.73c.83,0,1.5,.67,1.5,1.5s-.67,1.5-1.5,1.5Z"/>
+              <path d="M19.44,31.89H9.38c-.83,0-1.5-.67-1.5-1.5s.67-1.5,1.5-1.5h10.06c.83,0,1.5,.67,1.5,1.5s-.67,1.5-1.5,1.5Z"/>
+              <path d="M29.56,43.48H6.44c-3.55,0-6.44-2.89-6.44-6.44V6.44C0,2.89,2.89,0,6.44,0H29.56c3.55,0,6.44,2.89,6.44,6.44v30.59c0,3.55-2.89,6.44-6.44,6.44ZM6.44,3c-1.9,0-3.44,1.55-3.44,3.44v30.59c0,1.9,1.54,3.44,3.44,3.44H29.56c1.9,0,3.44-1.54,3.44-3.44V6.44c0-1.9-1.54-3.44-3.44-3.44H6.44Z"/>
+              <rect x="23.49" y="21.37" width="21.73" height="8.71" transform="translate(-8.13 31.83) rotate(-45)"/>
+              <polygon points="26.61 37.27 22.81 37.27 22.81 33.47 26.61 37.27"/>
+              <path d="M46.91,19.49l-6.16-6.16,2.1-2.1c.53-.53,1.21-.8,2.03-.8s1.5,.27,2.03,.8l2.1,2.1c.53,.53,.8,1.21,.8,2.03s-.27,1.5-.8,2.03l-2.1,2.1Z"/>
+          </svg>
             <h1>HedgeDoc</h1>
           </div>
-
-          <img alt="capture d'écran Hedgedoc" src="hedgedoc.png">
-
-          <p>HedgeDoc est un outils de prise de note. C'est une alternative à **Google doc**.
-
+          
+          <figure>
+            <img alt="capture d'écran Hedgedoc" src="hedgedoc.png">
+            <figcaption>
+              Capture d'écran : à gauche la partie modifiable (en noir), et à droite (en blanc) la partie visible mise en forme
+            </figcaption>  
+          </figure>
+          
+          <div class="flex align-left">
+            <p>HedgeDoc est un outils de prise de note. C'est une alternative à **Google doc**.
             Il permet de prendre des notes **simutltanément**, **à plusieurs**, **en ligne**, et sans avoir à créer de compte.
-            
             La particularité de ce logiciel de prise de note (appelé *pad*) est sont format de prise de note, **le Markdown**.
-            
             Pour faire simple, le markdown c'est l'ajout de différents caractères entre les mots pour les mettres en valeurs et leur attribuer une forme particulière.
-            
             Par exemple deux axtérix "**" autour d'un mot le mette en gras.
-            
             C'est pourquoi l'interface HedgeDoc se compose de deux parties :
-            
             - La partie éditable à gauche (ou en cliquant sur l'icone crayon en haut) est la partie modifiable, en markdown
-              
             - La partie visible à droite (ou en cliquant sur l'oeil en haut) est la partie visible du document avec le contenu mis en forme sommairement
-            A noter aussi qu'un historique des versions permets de restauré des versions différentes et de suivre les modifications. Il est de plus possible d'exporter sa prise de note en markdown ou html pour en faire autre chose (un site, un diapo...)</p>
-
-          <button class="open lv1 arrow">
-            <a title="ouvrir l'outils" target="_blank" href="https://pad.relief-aura.fr/">
-              <svg width="40" height="63" viewBox="0 0 40 63" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M3.27111 61.2428C1.31849 59.2902 1.31849 56.1243 3.27111 54.1717L25.6366 31.8063L2.36585 8.53556C0.413224 6.58294 0.413224 3.41712 2.36585 1.46449C4.31847 -0.488128 7.48429 -0.488128 9.43691 1.46449L39.7787 31.8063L10.3422 61.2428C8.38955 63.1954 5.22373 63.1954 3.27111 61.2428Z" />
-              </svg>
-            </a>
-          </button>
+            A noter aussi qu'un historique des versions permets de restauré des versions différentes et de suivre les modifications. Il est de plus possible d'exporter sa prise de note en markdown ou html pour en faire autre chose (un site, un diapo...)
+            </p>
+              <div class="bouton lv1">
+                <a title="ouvrir l'outil" target="_blank" href="https://pad.relief-aura.fr/">
+                  accéder à l'outils
+                </a>
+              </div>
+            </div>
 
 
     

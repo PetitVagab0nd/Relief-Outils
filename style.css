@@ -155,6 +155,7 @@ h1{
     font-weight: bolder;
     border-bottom: solid var(--second-color) 2.5px;
     padding-bottom: 0.5em;
+    width: fit-content;
 }
 
 section.header{
@@ -261,6 +262,16 @@ section.header .arrow{
     width: auto;
 }
 
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
 
 
 
