@@ -263,9 +263,18 @@ section.header .arrow{
 }
 
 
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
 .flex-row{
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.center{
     align-items: center;
 }
 
@@ -273,5 +282,25 @@ section.header .arrow{
     justify-content: space-between;
 }
 
+.documentation{
+    max-width: 80%;
+}
 
+.documentation p{
+    max-width: 42em;
+    line-height: 1.5em;
+}
 
+.documentation figure{
+    max-width: 80%;
+}
+
+img{
+    width: 100%;
+}
+
+figcaption{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
